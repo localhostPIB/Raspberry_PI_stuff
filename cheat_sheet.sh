@@ -34,6 +34,6 @@ htop
 # Reboot:
 sudo reboot
 
-# Shutdown:
-sudo shutdown
+# Shutdown (now):
+sudo shutdown -h now 
 
