@@ -37,3 +37,5 @@ sudo reboot
 # Shutdown (now):
 sudo shutdown -h now 
 
+# Apache 2 conf
+ /etc/apache2/
