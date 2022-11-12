@@ -7,6 +7,9 @@ sudo apt-get install curl
 # wget
 wget https://raw.githubusercontent.com/localhostPIB/Raspberry_PI_stuff/main/pgadmin_install.sh
 
+# search
+grep 'server made a boo boo' error.log
+
 # Install Apache 2:
 sudo apt install apache2
 
