@@ -49,3 +49,7 @@ sudo shutdown -h now
  source venv/bin/activate
  pip install -r requirements.txt
  deactivate
+
+# Install Git
+sudo apt install git
+
