@@ -53,3 +53,6 @@ sudo shutdown -h now
 # Install Git
 sudo apt install git
 
+# See remote repo
+git remote -v
+
