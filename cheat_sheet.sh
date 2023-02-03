@@ -56,3 +56,6 @@ sudo apt install git
 # See remote repo
 git remote -v
 
+# Ubuntu Version
+ lsb_release -a
+
