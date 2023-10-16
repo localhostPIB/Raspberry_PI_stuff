@@ -4,6 +4,9 @@ sudo apt-get update && sudo apt-get upgrade
 # install cURL
 sudo apt-get install curl
 
+# set owner
+sudo chown -R www-data:www-data www
+
 # wget
 wget https://raw.githubusercontent.com/localhostPIB/Raspberry_PI_stuff/main/pgadmin_install.sh
 
