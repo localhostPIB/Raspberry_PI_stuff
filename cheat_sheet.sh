@@ -56,6 +56,13 @@ sudo shutdown -h now
  pip install -r requirements.txt
  deactivate
 
+# reinstall Lib in venv
+ source /path/venv/bin/activate
+ pip install <foo>
+ deactivate
+
+
+
 # Install Git
 sudo apt install git
 
