@@ -10,6 +10,9 @@ sudo chown -R www-data:www-data www
 # wget
 wget https://raw.githubusercontent.com/localhostPIB/Raspberry_PI_stuff/main/pgadmin_install.sh
 
+# Apache2 Error-log
+tail var/log/apache2/error.log
+
 # search
 grep 'server made a boo boo' error.log
 
