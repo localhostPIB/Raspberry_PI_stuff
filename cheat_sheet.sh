@@ -88,6 +88,9 @@ git remote -v
 # Ubuntu Version
  lsb_release -a
 
+ # show all drives
+ sudo lshw -class disk -short
+
 # Delete external hard disk halfway securely.
 sudo dd if=/dev/urandom of=/dev/HDDNAME bs=40M status=progress
 
