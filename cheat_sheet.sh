@@ -1,5 +1,5 @@
 # Update und Upgrade:
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade -y
 
 # install cURL
 sudo apt-get install curl
@@ -81,4 +81,30 @@ sudo apt install neofetch
 
 # Delete external hard disk halfway securely.
 sudo dd if=/dev/urandom of=/dev/HDDNAME bs=40M status=progress
+
+# Swap File stuff
+
+# Show Swapfile infos.
+swapon --show
+
+# Create new Swap-File (12 gb).
+sudo dd if=/dev/zero of=/piswapfile bs=1G count=12
+
+# Set rights 
+sudo chmod 600 /piswapfile
+
+# Init Swap-File.
+sudo mkswap /swapfile
+
+# Activate Swap-File.
+sudo swapon /piswapfile
+
+# Old Swap-File deactivate.
+sudo swapoff /swapfile
+
+# Swap-File Entry. /peswapfile none swap sw 0 0
+sudo nano /etc/fstab
+
+# Delete old Swap-File.
+sudo rm /swapfile
 
