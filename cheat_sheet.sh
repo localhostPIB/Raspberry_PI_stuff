@@ -13,6 +13,9 @@ wget https://raw.githubusercontent.com/localhostPIB/Raspberry_PI_stuff/main/pgad
 # Apache2 Error-log
 tail var/log/apache2/error.log
 
+# Apache2 website resources www-root
+cd var/www/
+
 # search
 grep 'server made a boo boo' error.log
 
