@@ -1,6 +1,9 @@
 # Update und Upgrade:
 sudo apt-get update && sudo apt-get upgrade -y
 
+# windows script Problem Ubuntu
+sed -i 's/\r$//' conf.sh
+
 # install cURL
 sudo apt-get install curl
 
